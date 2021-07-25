@@ -24,18 +24,21 @@ header{
 
 header .logo{
     font-family: Jura, 'Open Sans', sans-serif;
+    margin-left: -30px;
 }
 
 header .logo img{
-    height: 30px;
+    height: 40px;
     display: inline-block;
-    transform: rotate(-30deg);
+    transform: rotate(-80deg) translateX(-5px);
+    margin-right: 10px;
 }
 
 header .logo span{
     color:#f44292;
     text-align: center;
-    margin-left: -10px;
+    font-size: 18px;
+    /* margin-left: -10px; */
 }
 
 header .logo h1{
@@ -55,13 +58,23 @@ header .nav-links li{
     display: inline-flex;
     /* justify-content: space-between; */
     margin: 10px 15px;
+    font-size: 14px;
+}
+
+header .nav-links li a{
+    text-decoration: none;
+    color: white;
 }
 
 body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.image-place{
+.user-info{
+    margin-right: 10px;
+}
+
+.user-info .image-place{
     background: rgb(247, 32, 121);
     display: inline-block;
     /* padding: 16px 20px; */
