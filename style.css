@@ -19,25 +19,42 @@ header{
     margin: auto;
     justify-content: space-between;
     width: 90%;
+    margin-top: 20px;
 }
 
-.logo img{
-    height: 50px;
-    display: inline-block;
-
-}
-
-.logo h1{
-    display: inline;
-}
-
-
-.logo{
+header .logo{
     font-family: Jura, 'Open Sans', sans-serif;
 }
 
-.logo h1{
+header .logo img{
+    height: 30px;
+    display: inline-block;
+    transform: rotate(-30deg);
+}
+
+header .logo span{
+    color:#f44292;
+    text-align: center;
+    margin-left: -10px;
+}
+
+header .logo h1{
+    display: inline;
     margin-bottom: -20px;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+header .nav-links{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .nav-links li{
+    list-style-type: none;
+    display: inline-flex;
+    /* justify-content: space-between; */
+    margin: 10px 15px;
 }
 
 body{
@@ -45,7 +62,7 @@ body{
 }
 
 .image-place{
-    background: black;
+    background: rgb(247, 32, 121);
     display: inline-block;
     /* padding: 16px 20px; */
     width: 50px;
@@ -55,5 +72,4 @@ body{
     border-radius: 5000px;
     font-size: 25px;
     color: white;
-
 }
